@@ -24,19 +24,12 @@
 
 import React from 'react';
 
-export function Post() {
-  const post = {
-    image:"https://cdn.discordapp.com/attachments/953379251955040297/1070114736705904691/7E85DB64-2D27-4903-AA8F-31401B696E8C.jpg",
-    title:"Azula and the flouride stare", 
-    description:"Princess Azula photographed by iPhone 12 mini"
-}
-
-
+export function Post(props) {  
   return (
-    <div className="post">
-      <img src={post.image} alt={post.title} />
-      <h3>{post.title}</h3>
-      <p>{post.description}</p>
+    <div>
+      <img src={props.image} alt={props.title} />
+      <h3>{props.title}</h3>
+      <p>{props.description}</p>
     </div>
   );
 }
