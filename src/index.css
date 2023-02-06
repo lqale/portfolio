@@ -8,6 +8,7 @@ header {
     font-family: Helvetica, sans-serif;
     font-size: 18px;  
     max-width: 220px; 
+    background-color: blue;
 }
 
 .ale-title {
@@ -17,6 +18,9 @@ header {
     filter: blur(2px);
     margin-bottom:5px;
 }
+.ale-title:hover{
+    color:rgb(63, 101, 205);
+}
 
 .subhead {
     max-width: 220px;
@@ -24,4 +28,47 @@ header {
     font-weight: normal;
     padding:10px;
     border:2px solid black;
+}
+.ale-links {
+    color:black;
+    margin-top: 50px;
+    display:flex;
+    flex-direction:column;
+    padding:5px;
+    line-height:25px;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+a:hover{
+    text-decoration:none;
+    text-decoration-color: rgb(63, 101, 205);
+    color:rgb(63, 101, 205);
+    filter:blur(2px);
+}
+.container{
+    width:720px;
+    height:500px;
+    
+    display:flex;
+    flex-direction: row;
+    
+    background-color: aqua;
+    position:relative;
+    
+}
+.postTitle{
+    font-weight: bold;
+
+}
+img{
+    max-width:300px;
+}
+
+.PostList{
+    background-color: red;
 }
