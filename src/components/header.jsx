@@ -2,7 +2,7 @@ import React from 'react';
 
 
 
-function LeHeader(props) {
+function LeHeader() {
     const head = {
         title: "aléjandra",
         subhead: "Aléjandra. A digital space for my creative endeavors.",

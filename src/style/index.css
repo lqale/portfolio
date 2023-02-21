@@ -1,6 +1,7 @@
 body{
     background-color: #f4f4f4;
     font-family: Helvetica, sans-serif;
+
 }
 .header {
     margin-left: 10%;
@@ -11,6 +12,10 @@ body{
     max-width: 200px; 
     position:sticky;
     float:left;
+}
+.page{
+    display:flex;
+    justify-content: space-between;
 }
 
 .ale-title {
@@ -40,6 +45,11 @@ body{
     line-height:25px;
 
 }
+@media (max-width:850px){
+    .ale-links{
+    display:flex;
+    flex-direction:row;}
+}
 
 a {
     text-decoration: none;
@@ -54,9 +64,10 @@ a:hover{
 }
 .container{
     width:500px;
-    height:700px;
-    margin-left: 10%;
-    margin-top: 1%;
+    height:95vh;
+    
+    /* margin-left: 10%;
+    margin-top: 1%; */
     overflow-y:scroll;
     overflow-x:hidden;
     display:flex;
@@ -70,12 +81,11 @@ a:hover{
 .pp{
     background-color:white;
     border-style:double;
-    
     position:center;
     padding:10px;
     margin-bottom:10px;
     margin-top:10px;
-    margin-left:40px;
+    margin-left:37px;
     max-width:400px;
 
 }
@@ -84,11 +94,27 @@ h3 {
     background-color: #ffffff;
     
 }
-.abouttext{
-    background-color: aqua;
-    margin:10px;
+
+.abouttitle{
+    color:rgb(63, 101, 205);
+}
+.aboutPage{
+    max-width:500px;
+    display:flex;
+    flex-direction:column;
+}
+.aboutContainer{
+width:400px;
+padding:10px;
 
 }
+.aboutText{
+    border:2px solid black;
+    padding:10px;
+}
+
+
+
 
 
 

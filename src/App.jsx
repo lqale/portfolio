@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import "./index.css";
-import LeHeader from "./header";
+import React from "react";
+import "./style/index.css";
+import LeHeader from "./components/header";
 
 
 

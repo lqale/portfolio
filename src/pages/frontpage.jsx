@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Post from "../post";
-import PostList from "../PostList";
+import Post from "../components/Post";
+import PostList from "../components/PostList";
 
 function FrontPage (){
     const [posts, setPosts] = useState([
