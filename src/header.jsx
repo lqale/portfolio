@@ -1,13 +1,26 @@
 import React from 'react';
 
 
+
 function LeHeader(props) {
+    const head = {
+        title: "aléjandra",
+        subhead: "Aléjandra. A digital space for my creative endeavors.",
+      };
+
+
+    const navi = [
+        { title: "home", route: "/" },
+        { title: "works", route: "/works" },
+        { title: "about", route: "/about" },
+      ];
+
     return (
         <section>
-            <div className='ale-title'>{ props.title }</div>
-               <div className='subhead'> {props.subhead}</div>
+            <div className='ale-title'>{head.title}</div>
+               <div className='subhead'> {head.subhead}</div>
                <div className='ale-links'>
-                {props.links.map(x => <a href={x.route}>{x.title}</a>)}
+                {navi.map(x => <a href={x.route}>{x.title}</a>)}
                 </div>
         </section>
     )

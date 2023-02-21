@@ -9,6 +9,7 @@ function PostList(props) {
        <Post 
           key={index} 
           image={post.image} 
+          
           title={post.title} 
           description={post.description} 
           
