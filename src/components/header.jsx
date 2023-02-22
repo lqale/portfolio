@@ -13,6 +13,7 @@ function LeHeader() {
         { title: "home", route: "/" },
         { title: "works", route: "/works" },
         { title: "about", route: "/about" },
+        { title: "github", route: "https://github.com/lqale" }
       ];
 
     return (
