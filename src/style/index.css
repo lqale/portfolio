@@ -139,15 +139,22 @@ h3 {
   
  
 .wNaviContainer{
-    width:300px;
+    width: 800px;
     padding:10px;
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    
 }
 .wNaviContainer img {
-    width:200px;
+    width:400px;
 }
 .wNaviContainer a:hover{
 filter:saturate(1);
+}
+.naviCover{
+    object-fit: cover;
+
 }
 
