@@ -1,38 +1,39 @@
 import React from "react";
-import LeGallery from '../components/legallery';
-// import "/assets/gir.png";
+import { Link } from 'react-router-dom';
+
 import photoGir from '../assets/gir.png';
+import lll from '../assets/lll.png';
+import '../style/index.css';
+
+
 export function Works(){
-
-    const galleryImages = [
-        {
-          img: photoGir
-        },{
-            img: photoGir
-          },{
-            img: photoGir
-          },{
-            img: photoGir
-          },{
-            img: photoGir
-          }
-      ];
     
-
     return (
     <h1>Works</h1>,
     
-    <div className="container">
-    <LeGallery
-        galleryImages={galleryImages}
-      />
+    
+    <div className="wNaviContainer">
+      <div className="naviCover">
+      <Link to="./Sketchbook" target="_blank" rel="noreferrer">
+        <img src = {photoGir} alt= {lll}></img>
+      </Link>
+      </div>
+      <div className="naviCover">
+      <Link to="./Sketchbook" target="_blank" rel="noreferrer">
+        <img src = {photoGir} alt= {lll}></img>
+      </Link>
+      </div>
+      <div className="naviCover">
+      <Link to="./Sketchbook" target="_blank" rel="noreferrer">
+        <img src = {photoGir} alt= {lll}></img>
+      </Link>
+      </div>
+      <div className="naviCover">
+      <Link to="./Sketchbook" target="_blank" rel="noreferrer">
+        <img src = {photoGir} alt= {lll}></img>
+      </Link>
+      </div>
 </div>
     )
-
-
-
-
-
-
-}
+};
 

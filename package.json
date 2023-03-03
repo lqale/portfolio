@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@types/react": "^18.0.28",
     "react-router-dom": "^6.8.1",
     "snowpack": "^2.18.5"
   },
