@@ -1,0 +1,1 @@
+export default "/dist/assets/Sketchbook/Sketchbook-03.jpg";

@@ -1,0 +1,1 @@
+export default "/dist/assets/2D/Digital/GirlintheSuburbs.png";

@@ -5,6 +5,7 @@ import photoGir from '../assets/gir.png';
 import lll from '../assets/lll.png';
 import cover2D from '../assets/2D/Digital/GirlintheSuburbs.png';
 import cover3D from '../assets/3D/mothbear/mothbear_model01.png';
+import coverSB from '../assets/Sketchbook/Sketchbook-03.jpg';
 import '../style/index.css';
 
 
@@ -32,7 +33,7 @@ export function Works(){
       </div>
       <div className="naviCover">
       <Link to="./Sketchbook" target="_blank" rel="noreferrer">
-        <img src = {photoGir} alt= {lll}></img>
+        <img src = {coverSB} alt= {lll}></img>
       </Link>
       </div>
 </div>

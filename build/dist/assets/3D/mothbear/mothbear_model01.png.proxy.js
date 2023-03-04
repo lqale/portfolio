@@ -1,0 +1,1 @@
+export default "/dist/assets/3D/mothbear/mothbear_model01.png";

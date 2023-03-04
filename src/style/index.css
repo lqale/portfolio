@@ -147,14 +147,19 @@ h3 {
     border: 1px solid red;
     
 }
-.wNaviContainer img {
-    width:400px;
+.wNaviContainer img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
 }
+
 .wNaviContainer a:hover{
 filter:saturate(1);
 }
-.naviCover{
-    object-fit: cover;
+/* .naviCover{
+    height: 400px;
+    width:400px;
+    
 
-}
+} */
 
