@@ -2,7 +2,7 @@ import React from "react";
 import "./style/index.css";
 import LeHeader from "./components/header";
 import { About } from "./pages/about";
-import  {Works}   from "./pages/works";
+import  {Works}   from "./pages/Works";
 import FrontPage from "./pages/frontpage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 

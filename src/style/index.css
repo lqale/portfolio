@@ -139,7 +139,7 @@ h3 {
   
  
 .wNaviContainer{
-    width: 800px;
+    width: 760px;
     padding:10px;
     display: flex;
     flex-direction:row;
@@ -148,13 +148,30 @@ h3 {
     
 }
 .wNaviContainer img{
-    height: 400px;
-    width: 400px;
+    height: 375px;
+    width: 375px;
     object-fit: cover;
 }
 
 .wNaviContainer a:hover{
-filter:saturate(1);
+filter:saturate(100);
+}
+.naviCover{
+    background-color: aqua;
+}
+.naviCover p {
+    background-color: rgb(138, 138, 181);
+    font-size: 20px;
+}
+.naviCoverRight{
+    background-color: rgb(182, 218, 55);
+    padding-left:10px;
+}
+
+
+.naviCoverRight p {
+    background-color: rgb(138, 138, 181);
+    font-size: 20px;
 }
 /* .naviCover{
     height: 400px;
