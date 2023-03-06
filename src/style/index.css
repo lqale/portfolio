@@ -139,7 +139,7 @@ h3 {
   
  
 .wNaviContainer{
-    width: 760px;
+    width: 660px;
     padding:10px;
     display: flex;
     flex-direction:row;
@@ -148,31 +148,37 @@ h3 {
     
 }
 .wNaviContainer img{
-    height: 375px;
-    width: 375px;
+    height: 325px;
+    width: 325px;
     object-fit: cover;
 }
 
-.wNaviContainer a:hover{
-filter:saturate(100);
+.wNaviContainer img:hover{
+    filter:invert(100);
+
 }
-.naviCover{
-    background-color: aqua;
-}
-.naviCover p {
-    background-color: rgb(138, 138, 181);
-    font-size: 20px;
-}
+
+.wNaviContainer a:visited{
+    color:black;
+    }
+    .wNaviContainer a{
+    text-decoration: none;
+        }
+
+.wNaviContainer p{
+   
+    padding:5px;
+    font-size: 15px;
+    font-style: oblique;
+    font-weight: 300;
+    
+    }
+
+
 .naviCoverRight{
-    background-color: rgb(182, 218, 55);
     padding-left:10px;
 }
 
-
-.naviCoverRight p {
-    background-color: rgb(138, 138, 181);
-    font-size: 20px;
-}
 /* .naviCover{
     height: 400px;
     width:400px;

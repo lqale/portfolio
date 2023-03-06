@@ -21,27 +21,27 @@ export function Works(){
       <div className="naviCover">
       <Link to="./Sketchbook" target="_blank" rel="noreferrer">
         <img src = {cover2D} alt= {lll}></img>
-        <p>2D</p>
+        <p>/2D</p>
       </Link>
       
       </div>
       <div className="naviCoverRight">
       <Link to="./Sketchbook" target="_blank" rel="noreferrer">
         <img src = {cover3D} alt= {lll}></img>
-        <p>3D</p>
+        <p>/3D</p>
       </Link>
     
       </div>
       <div className="naviCover">
       <Link to="./Sketchbook" target="_blank" rel="noreferrer">
         <img src = {coverCo} alt= {lll}></img>
-        <p>code</p>
+        <p>/code</p>
       </Link>
       </div>
       <div className="naviCoverRight">
       <Link to="./Sketchbook" target="_blank" rel="noreferrer">
         <img src = {coverSB} alt= {lll}></img>
-        <p>sketchbook</p>
+        <p>/sketchbook</p>
       </Link>
       </div>
 </div>
