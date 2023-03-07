@@ -63,4 +63,4 @@ const LeGallery = ({galleryImages}) => {
   )
 }
 
-export default LeGallery
+export default LeGallery;

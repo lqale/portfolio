@@ -137,52 +137,39 @@ h3 {
     justify-content: space-between;
 }
   
- 
+/*works*/ 
 .wNaviContainer{
     width: 660px;
     padding:10px;
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
-    border: 1px solid red;
-    
 }
+
 .wNaviContainer img{
-    height: 325px;
-    width: 325px;
+    height: 300px;
+    width: 300px;
+    padding:5px;
     object-fit: cover;
 }
 
 .wNaviContainer img:hover{
     filter:invert(100);
-
 }
 
 .wNaviContainer a:visited{
     color:black;
-    }
-    .wNaviContainer a{
+}
+
+.wNaviContainer a{
     text-decoration: none;
-        }
+}
 
 .wNaviContainer p{
-   
     padding:5px;
     font-size: 15px;
     font-style: oblique;
     font-weight: 300;
-    
-    }
-
-
-.naviCoverRight{
-    padding-left:10px;
 }
 
-/* .naviCover{
-    height: 400px;
-    width:400px;
-    
-
-} */
 
